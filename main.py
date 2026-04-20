@@ -6,6 +6,9 @@ class Item(BaseModel):
     item_id: int
     price: int
     name: str
+class user(BaseModel):
+    user_id: int
+    name: str
 
 class asset(BaseModel):
     asset_id: int
