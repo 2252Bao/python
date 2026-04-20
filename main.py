@@ -7,6 +7,11 @@ class Item(BaseModel):
     price: int
     name: str
 
+class asset(BaseModel):
+    asset_id: int
+    name: str
+
+
 items_list = [  
 Item(item_id=1, price=100, name="Item 1"),
 Item(item_id=2, price=200, name="Item 2"),
