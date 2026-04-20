@@ -6,6 +6,9 @@ class Item(BaseModel):
     item_id: int
     price: int
     name: str
+class user(BaseModel):
+    user_id: int
+    name: str
 
 items_list = [  
 Item(item_id=1, price=100, name="Item 1"),
